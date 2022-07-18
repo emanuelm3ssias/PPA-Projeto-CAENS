@@ -1,0 +1,38 @@
+.caens-header-bg{
+    background-color: var(--cor-v1);
+    padding: 0.5rem 1rem;
+}
+
+.caens-barra{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caens-nav ul{
+    display: flex;
+    
+}
+
+.caens-nav a{
+    padding: 0.5rem;
+}
+
+.main-titulo-bg{
+    background-color: var(--cor-v3);
+    box-shadow: 0px 80px var(--cor-v3);
+
+}
+
+.main-titulo-h1{
+    padding: 1rem 0px;
+}
+
+.main-titulo-bg h1{
+    display: inline-block;
+    border: 2px solid var(--cor-01);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+}

@@ -1,0 +1,10 @@
+/* gerais */
+@import "../geral/gerais.css";
+@import "../utilitarios/cores.css";
+@import "../utilitarios/header.css";
+@import "../utilitarios/fontes.css";
+@import "../utilitarios/objetos.css";
+
+/* cadastro professor */
+@import "../cadastro/cadastro-professor.css";
+@import "../cadastro/cadastro-prof-form.css"

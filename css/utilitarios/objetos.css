@@ -1,0 +1,21 @@
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.botao-1{
+    background-color: var(--cor-v2);
+    color: var(--cor-01);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.botao-2{
+    background-color: var(--cor-v3);
+    color: var(--cor-01);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1rem;
+}
