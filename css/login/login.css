@@ -1,0 +1,47 @@
+
+
+.form-login{
+    background-color: var(--cor-01);
+    padding: 2rem;
+    border-radius: 16px;
+
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+.form-login h2{
+    max-width: 24ch;
+    text-align: center;
+}
+
+.form-login-links{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.form-login-links a{
+    color: var(--cor-v3);
+    text-decoration:underline;
+}
+
+
+
+.titulo-login{
+    text-align: center;
+    position: absolute;
+}
+
+.titulo-login h1{
+    border: 3px solid var(--cor-01);
+    background-color: var(--cor-v3);
+    padding: 0.5rem 4rem;
+
+
+    position: relative;
+    top: 30px;
+    right: 0px;
+}

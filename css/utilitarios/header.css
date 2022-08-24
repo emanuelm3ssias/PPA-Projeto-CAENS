@@ -1,38 +1,30 @@
-.caens-header-bg{
+/* navegação - verde escuro */
+
+.caens-bg{
     background-color: var(--cor-v1);
-    padding: 0.5rem 1rem;
 }
 
-.caens-barra{
+.caens-header{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
     justify-content: space-between;
     align-items: center;
 }
 
+.caens-header span,
+.caens-header nav,
+.caens-header-2 span{
+    padding: 0.4rem 0rem;    
+}
+
 .caens-nav ul{
     display: flex;
-    
+    gap: 1rem;
 }
 
-.caens-nav a{
-    padding: 0.5rem;
-}
-
-.main-titulo-bg{
-    background-color: var(--cor-v3);
-    box-shadow: 0px 80px var(--cor-v3);
-
-}
-
-.main-titulo-h1{
-    padding: 1rem 0px;
-}
-
-.main-titulo-bg h1{
-    display: inline-block;
-    border: 2px solid var(--cor-01);
-    padding: 0.5rem 1.5rem;
-    border-radius: 30px;
+.caens-header-2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: var(--cor-v1);
+    color: var(--cor-01);
 }

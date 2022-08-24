@@ -7,34 +7,34 @@
     
     <title>CAENS | Cadastro de Professor</title>
 
-    <link rel="stylesheet" href="./css/geral/import.css">
+    <link rel="stylesheet" href="../css/geral/import.css">
 
 </head>
 <body id="cadastro-professor">
-    <header class="caens-header-bg">
-        <div class="caens-barra container cor-01">
-            <div class="caens-titulo f-2rem">
-                <span>CAENS</span>
-            </div>
+    <header class="caens-bg cor-01">
+        <div class="container caens-header">
+            
+            <span>CAENS</span>
 
-            <nav class="caens-nav">
+            <nav class="caens-nav f-bold-400">
                 <ul>
                     <li><a href="#">Início</a></li>
                     <li><a href="#">Registros</a></li>
                 </ul>
             </nav>
+         </div>
+    </header>
+
+    <section class="titulo-pagina-bg">
+        <div class="container">
+            <h1>Cadastro de Professor</h1>
         </div>
-    </header> 
+    </section>
+
 
     <main class="main-cadastro-professor">
-        <div class="main-titulo-bg cor-01">
-            <div class="container main-titulo-h1">
-                <h1>Cadastro de Professor</h1>
-            </div>
-        </div>
-
         <form action="#" class="main-cadastro-professor-form-container container">
-            <div class="main-cadastro-professor-form cor-v1 f-1-25rem">
+            <div class="main-cadastro-professor-form cor-v1">
                 <div>
                     <label for="nome-professor">Nome</label>
                     <input type="text" name="nome-professor" id="nome-professor" placeholder="Nome do professor">
@@ -77,8 +77,8 @@
                 </div>
 
                 <div class="turmas-ministradas-container">
-                    <label class="f-1-25rem">Turmas Ministradas</label>
-                    <div class="turmas-ministradas-grid f-0-9rem">
+                    <label>Turmas Ministradas</label>
+                    <div class="turmas-ministradas-grid">
                         <div>
                             <input type="checkbox" name="turmas-ministradas" value="turma-111" id="turma-111">
                             <label for="turma-111">111</label>

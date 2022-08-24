@@ -4,7 +4,16 @@
 @import "../utilitarios/header.css";
 @import "../utilitarios/fontes.css";
 @import "../utilitarios/objetos.css";
+@import "../utilitarios/titulo-pagina.css";
+
+/* pagina de login */
+@import "../login/login.css";
+@import "../login/novo-user.css";
+@import "../login/recuperar-senha.css";
 
 /* cadastro professor */
 @import "../cadastro/cadastro-professor.css";
-@import "../cadastro/cadastro-prof-form.css"
+@import "../cadastro/cadastro-prof-form.css";
+
+/* temporatios - apagar */
+@import "../temporarios/temp-1.css"
