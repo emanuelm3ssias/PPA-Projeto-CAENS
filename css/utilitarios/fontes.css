@@ -11,3 +11,7 @@
 .up{
     text-transform: uppercase;    
 }
+
+.low{
+    text-transform: lowercase;
+}
