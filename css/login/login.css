@@ -29,7 +29,7 @@
 }
  
 .form-login{
-    margin: 60px;
+    margin-top: 60px;
     box-sizing: border-box;
     background-color: var(--cor-01);
     border-radius: 20px;
