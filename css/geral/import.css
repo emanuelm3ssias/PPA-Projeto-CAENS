@@ -12,8 +12,8 @@
 @import "../login/recuperar-senha.css";
 
 /* cadastro professor */
-@import "../cadastro/cadastro-professor.css";
-@import "../cadastro/cadastro-prof-form.css";
+@import "../professor/cadastro-professor.css";
+@import "../professor/cadastro-prof-form.css";
 
-/* temporatios - apagar */
-@import "../temporarios/temp-1.css"
+/* retirada de item */
+@import "../item/retirada-de-item.css";
