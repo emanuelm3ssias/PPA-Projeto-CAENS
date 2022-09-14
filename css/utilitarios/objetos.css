@@ -21,6 +21,7 @@
     border: none;
     font-weight: 600;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .botao-3{
@@ -31,5 +32,4 @@
     display: inline-block;
     font-size: 1rem;
     text-transform: uppercase;
-
 }
