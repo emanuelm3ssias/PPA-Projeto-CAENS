@@ -14,6 +14,8 @@
 /* cadastro professor */
 @import "../professor/cadastro-professor.css";
 @import "../professor/cadastro-prof-form.css";
+/* dashboard */
+@import "../professor/dashboard.css";
 
 /* retirada de item */
 @import "../item/retirada-de-item.css";

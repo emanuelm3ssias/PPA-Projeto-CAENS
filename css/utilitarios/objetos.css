@@ -19,7 +19,17 @@
     display: inline-block;
     font-size: 1rem;
     border: none;
-    text-transform: uppercase;
     font-weight: 600;
     cursor: pointer;
+}
+
+.botao-3{
+    background-color: var(--cor-01);
+    color: var(--cor-v2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+
 }
