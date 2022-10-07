@@ -9,13 +9,12 @@ class Professor {
     public $email;
     public $senha;
 
-
     function __construct($nome, $cod_siap, $email, $senha) {
         $this -> nome = $nome;
         $this -> cod_siap = $cod_siap;
         $this -> email = $email;
         $this -> senha = $senha;
-    }   
+    }
 
     function inserir() {
         $banco = new Banco();

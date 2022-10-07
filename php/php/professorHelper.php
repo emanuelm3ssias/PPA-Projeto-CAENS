@@ -7,7 +7,7 @@
         $id_aluno = $_POST['id_professor'];
         $aluno = Professor::carregar($id_aluno);
         $aluno->excluir();
-    }
+    }*/
 
     if(isset($_POST['tipo'])){
         $tipo = $_POST['tipo'];
@@ -20,7 +20,7 @@
         }
     }
 
-    function editar_professor(){
+    /*function editar_professor(){
         $nome = $_POST['nome'];
         $email = $_POST['email']; 
         $id_professor = $_POST['id_professor'];
